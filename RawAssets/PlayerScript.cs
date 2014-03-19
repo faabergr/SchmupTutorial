@@ -23,7 +23,6 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (rigidbody2D != null)
-            rigidbody2D.velocity = _movement;
+		rigidbody2D.velocity = _movement;
     }
 }

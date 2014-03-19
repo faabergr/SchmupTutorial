@@ -33,6 +33,8 @@ public class WeaponScript : MonoBehaviour
 
     public void Attack(bool isEnemy)
     {
+        Debug.Log("got here");
+
         if (CanAttack)
         {
             _currentCooldown = ShootingRate;
